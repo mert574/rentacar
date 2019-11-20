@@ -1,0 +1,25 @@
+### Node template
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+### VisualStudioCode template
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+dist/
+public/bundle
+stats.html

@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "rollup -c",
-    "dev": "rm -r public/bundle && rollup -c -w"
+    "dev": "(rm -r public/bundle || true ) && rollup -c -w"
   },
   "repository": "https://github.com/mert574/rentacar",
   "author": "mert574",
@@ -14,7 +14,8 @@
     "bootstrap": "4.3.1",
     "jquery": "3.4.1",
     "lodash": "4.17.15",
-    "popper.js": "1.16.0"
+    "popper.js": "1.16.0",
+    "qs": "6.9.1"
   },
   "devDependencies": {
     "@babel/core": "7.7.2",

@@ -13,7 +13,7 @@ import atImport from 'postcss-import';
 // import copy from 'rollup-plugin-copy';
 
 module.exports = {
-    input: 'src/main.js',
+    input: ['src/main.js', 'src/offers.js'],
     output: [
         {
             dir: 'public/bundle',
@@ -42,15 +42,6 @@ module.exports = {
             exclude: 'node_modules/**',
             extensions: ['js'],
         }),
-        // visualizer({
-        //     title: "Rent a Car Dependencies",
-        //     open: false,
-        // }),
-        // copy({
-        //     targets: [
-        //         { src: 'src/**/*.html', dest: 'public' },
-        //     ],
-        // }),
         dev({
             dirs: ['public', 'src'],
             silent: true,

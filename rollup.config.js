@@ -13,7 +13,11 @@ import atImport from 'postcss-import';
 // import copy from 'rollup-plugin-copy';
 
 module.exports = {
-    input: ['src/main.js', 'src/offers.js'],
+    input: [
+        'src/main.js',
+        'src/offers/offers.js',
+        'src/checkout/checkout.js',
+    ],
     output: [
         {
             dir: 'public/bundle',

@@ -9,9 +9,11 @@ html, body {
 #car-listing > .car-list-item {
     cursor: pointer;
 }
+
 #car-listing > .car-list-item > img {
     transition: transform 100ms ease-in-out;
 }
+
 #car-listing > .car-list-item:hover > img {
     transform: scale(1.05);
 }

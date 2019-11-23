@@ -9,8 +9,6 @@ import CSSNext from 'postcss-cssnext';
 import CSSNano from 'cssnano';
 import liveReload from 'rollup-plugin-livereload';
 import atImport from 'postcss-import';
-// import visualizer from 'rollup-plugin-visualizer';
-// import copy from 'rollup-plugin-copy';
 
 module.exports = {
     input: [
@@ -33,7 +31,7 @@ module.exports = {
         resolve(),
         postcss({
             extract: true,
-            extensions: [ '.css' ],
+            extensions: ['.css'],
             plugins: [
                 CSSNext(),
                 CSSNano(),

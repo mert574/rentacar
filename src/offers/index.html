@@ -3,16 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Offers Screen</title>
-    <link rel="stylesheet" href="/bundle/main.css">
+    <link href="/bundle/main.css" rel="stylesheet">
 </head>
 <body>
-<div class="container h-100">
-    <div class="col h-100 w-100 mt-5 mb-5">
-        <h1 class="row" id="resultsTitle">Showing results for: <span></span></h1>
-        <h4 class="row mb-5" id="betweenDates">Between <span></span></h4>
+<nav class="navbar navbar-light bg-dark">
+    <a class="navbar-brand text-light align-items-center d-flex" href="/">
+        <img alt="" class="d-inline-block mr-3" height="50" src="/assets/icons/car-rental.svg" width="50">
+        Antalya Car Rental
+    </a>
+</nav>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li aria-current="page" class="breadcrumb-item active">Offers</li>
+    </ol>
+</nav>
+<div class="container">
+    <div class="col mt-5 mb-5">
+        <h1 class="row" id="resultsTitle"><strong>Pick Up Location:</strong><span class="ml-2"></span></h1>
+        <h4 class="row mb-5" id="betweenDates"><strong>Available Between:</strong><span class="ml-2"></span></h4>
         <div class="card-deck container-fluid pt-3" id="car-listing"></div>
     </div>
 </div>
-<script type="module" src="/bundle/offers.js" async defer></script>
+<script async defer src="/bundle/offers.js" type="module"></script>
 </body>
 </html>

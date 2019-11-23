@@ -20,6 +20,4 @@ gen
 !.vscode/launch.json
 !.vscode/extensions.json
 
-dist/
-public/bundle
-stats.html
+public/

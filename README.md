@@ -6,8 +6,9 @@
 
 ## Commands
 - Install dependencies: ``yarn``
-- Start development server: ``yarn dev``
+- Start development server: ``yarn dev`` ( port `:8080` )
 - Build project: ``yarn build``
+( builds to `/public` directory )
 
 ## Technologies used
 
@@ -20,4 +21,3 @@
 - Rollup
 - Babel
 - Postcss
-- Livereload

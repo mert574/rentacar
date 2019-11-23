@@ -1,4 +1,4 @@
-import data from "../public/assets/mockData.json";
+import data from "./assets/mockData.json";
 
 export default function fillTemplateWithCarInfo(template, mockDataCarListingIndex) {
     const listing = data.result[mockDataCarListingIndex];

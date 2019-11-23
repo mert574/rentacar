@@ -1,6 +1,6 @@
 import $ from "jquery";
 import qs from "qs";
-import data from "../../public/assets/mockData.json";
+import data from "../assets/mockData.json";
 import fillTemplateWithCarInfo from "../fillTemplateWithCarInfo";
 
 const template = `

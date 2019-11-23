@@ -7,8 +7,8 @@ import dev from 'rollup-plugin-dev'
 import postcss from 'rollup-plugin-postcss';
 import CSSNext from 'postcss-cssnext';
 import CSSNano from 'cssnano';
-import liveReload from 'rollup-plugin-livereload';
 import atImport from 'postcss-import';
+import copy from 'rollup-plugin-copy';
 
 module.exports = {
     input: [
@@ -18,7 +18,7 @@ module.exports = {
     ],
     output: [
         {
-            dir: 'public/bundle',
+            dir: 'public/js',
             format: 'es',
             sourcemap: false,
         }
@@ -48,7 +48,18 @@ module.exports = {
             dirs: ['public', 'src'],
             silent: true,
         }),
-        liveReload(),
+        copy({
+            targets: [
+                { src: ['src/*.html'], dest: 'public' },
+                { src: ['src/assets'], dest: 'public/assets' },
+                { src: ['src/checkout/*.html'], dest: 'public/checkout' },
+                { src: ['src/confirm/*.html'], dest: 'public/confirm' },
+                { src: ['src/offers/*.html'], dest: 'public/offers' },
+            ],
+            copyOnce: true,
+            verbose: true,
+            expandDirectories: true,
+        }),
     ],
     manualChunks(id) {
         if (id.includes('node_modules')) {

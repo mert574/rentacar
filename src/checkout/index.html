@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout</title>
+    <link href="/bundle/main.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-light bg-dark">
+    <a class="navbar-brand text-light align-items-center d-flex" href="/">
+        <img alt="" class="d-inline-block mr-3" height="50" src="/assets/icons/car-rental.svg" width="50">
+        Antalya Car Rental
+    </a>
+</nav>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li class="breadcrumb-item"><a href="javascript:history.back()">Offers</a></li>
+        <li aria-current="page" class="breadcrumb-item active">Checkout</li>
+    </ol>
+</nav>
+<div class="container">
+    <div class="col mt-5 mb-5">
+        <h1 class="row mb-5 font-weight-bold">Checkout</h1>
+        <div class="media">
+            <div class="media-body">
+                <h4 class="mt-0 mb-1" id="carName"></h4>
+                <div class="card-body text-left" id="carDetails"></div>
+            </div>
+            <img alt="" class="ml-3" id="carImg" src="#">
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">You are about to reserve this car for renting</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    To complete the rental, you need to come to our office and complete the paperwork.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-primary" href="/confirm">Reserve This Car For Me !</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script async defer src="/bundle/checkout.js" type="module"></script>
+</body>
+</html>

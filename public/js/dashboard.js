@@ -1,0 +1,1 @@
+import{$ as n}from"./jquery-b1a81d34.js";import{q as o}from"./index-32107773.js";n((function(){var a=o.parse(window.location.search.substring(1)).username;a&&a.length||(window.location="/admin/login.html"),n("span#name").text(a)}));

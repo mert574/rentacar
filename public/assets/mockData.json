@@ -1,0 +1,688 @@
+{
+  "count": 15,
+  "countReservations": 5,
+  "totalStatistics": {
+    "class_type": [
+      {
+        "count": 2,
+        "value": "compact"
+      },
+      {
+        "count": 4,
+        "value": "premium"
+      },
+      {
+        "count": 9,
+        "value": "comfort"
+      },
+      {
+        "count": 4,
+        "value": "standard"
+      },
+      {
+        "count": 1,
+        "value": "suv"
+      },
+      {
+        "count": 7,
+        "value": "intermediate"
+      },
+      {
+        "count": 32,
+        "value": "economic"
+      },
+      {
+        "count": 1,
+        "value": "luxury"
+      },
+      {
+        "count": 3,
+        "value": "van"
+      },
+      {
+        "count": 8,
+        "value": "prestige"
+      }
+    ],
+    "transmission": [
+      {
+        "count": 25,
+        "value": "automatic"
+      },
+      {
+        "count": 46,
+        "value": "manual"
+      }
+    ],
+    "brand": [
+      {
+        "count": 15,
+        "value": "fiat"
+      },
+      {
+        "count": 17,
+        "value": "renault"
+      },
+      {
+        "count": 2,
+        "value": "nissan"
+      },
+      {
+        "count": 3,
+        "value": "dacia"
+      },
+      {
+        "count": 1,
+        "value": "toyota"
+      },
+      {
+        "count": 8,
+        "value": "hyundai"
+      },
+      {
+        "count": 8,
+        "value": "ford"
+      },
+      {
+        "count": 1,
+        "value": "mercedes benz"
+      },
+      {
+        "count": 2,
+        "value": "bmw"
+      },
+      {
+        "count": 2,
+        "value": "citroen"
+      },
+      {
+        "count": 4,
+        "value": "volkswagen"
+      },
+      {
+        "count": 5,
+        "value": "peugeot"
+      },
+      {
+        "count": 3,
+        "value": "opel"
+      }
+    ],
+    "average_rating": {
+      "maximumValue": 4.7619047619,
+      "minimumValue": 2.5
+    },
+    "fuel": [
+      {
+        "count": 41,
+        "value": "diesel"
+      },
+      {
+        "count": 5,
+        "value": "diesel-gas-mixed"
+      },
+      {
+        "count": 24,
+        "value": "gas"
+      },
+      {
+        "count": 1,
+        "value": "hybrid"
+      }
+    ],
+    "distance_limit": {
+      "maximumValue": 4000,
+      "minimumValue": 0
+    },
+    "provision": {
+      "maximumValue": 250000,
+      "minimumValue": 30000
+    },
+    "price": {
+      "maximumValue": 135100,
+      "minimumValue": 21300
+    }
+  },
+  "searchStatistics": {
+    "delivery_type": [
+      {
+        "count": 35,
+        "value": "fromOffice"
+      },
+      {
+        "count": 36,
+        "value": "meetAndGreet"
+      }
+    ],
+    "class_type": [
+      {
+        "count": 2,
+        "value": "compact"
+      },
+      {
+        "count": 4,
+        "value": "premium"
+      },
+      {
+        "count": 9,
+        "value": "comfort"
+      },
+      {
+        "count": 4,
+        "value": "standard"
+      },
+      {
+        "count": 1,
+        "value": "suv"
+      },
+      {
+        "count": 7,
+        "value": "intermediate"
+      },
+      {
+        "count": 32,
+        "value": "economic"
+      },
+      {
+        "count": 1,
+        "value": "luxury"
+      },
+      {
+        "count": 3,
+        "value": "van"
+      },
+      {
+        "count": 8,
+        "value": "prestige"
+      }
+    ],
+    "transmission": [
+      {
+        "count": 25,
+        "value": "automatic"
+      },
+      {
+        "count": 46,
+        "value": "manual"
+      }
+    ],
+    "brand": [
+      {
+        "count": 15,
+        "value": "fiat"
+      },
+      {
+        "count": 17,
+        "value": "renault"
+      },
+      {
+        "count": 2,
+        "value": "nissan"
+      },
+      {
+        "count": 3,
+        "value": "dacia"
+      },
+      {
+        "count": 1,
+        "value": "toyota"
+      },
+      {
+        "count": 8,
+        "value": "hyundai"
+      },
+      {
+        "count": 8,
+        "value": "ford"
+      },
+      {
+        "count": 1,
+        "value": "mercedes benz"
+      },
+      {
+        "count": 2,
+        "value": "bmw"
+      },
+      {
+        "count": 2,
+        "value": "citroen"
+      },
+      {
+        "count": 4,
+        "value": "volkswagen"
+      },
+      {
+        "count": 5,
+        "value": "peugeot"
+      },
+      {
+        "count": 3,
+        "value": "opel"
+      }
+    ],
+    "average_rating": {
+      "maximumValue": 4.7619047619,
+      "minimumValue": 2.5
+    },
+    "fuel": [
+      {
+        "count": 41,
+        "value": "diesel"
+      },
+      {
+        "count": 5,
+        "value": "diesel-gas-mixed"
+      },
+      {
+        "count": 24,
+        "value": "gas"
+      },
+      {
+        "count": 1,
+        "value": "hybrid"
+      }
+    ],
+    "distance_limit": {
+      "maximumValue": 4000,
+      "minimumValue": 0
+    },
+    "provision": {
+      "maximumValue": 250000,
+      "minimumValue": 30000
+    },
+    "price": {
+      "maximumValue": 135100,
+      "minimumValue": 21300
+    }
+  },
+  "result": [
+    {
+      "rules": {
+        "dailyRangeLimit": 3000,
+        "licenseYears": 2,
+        "driverAge": 21,
+        "doubleCreditCard": false,
+        "licenseYearsWithYoungDriver": 2
+      },
+      "car": {
+        "name": "i20",
+        "bigBagCount": 1,
+        "smallBagCount": 1,
+        "transmission": "manual",
+        "brand": "Hyundai",
+        "class": "economic",
+        "seats": 5,
+        "fuel": "gas",
+        "image": "/assets/cars/a80ee21501eb4c37228de1b92a478431.png"
+      },
+      "insurance": "basicDamage",
+      "price": 94.04,
+      "discountAmount": 0.55,
+      "preDiscountPrice": 145.76
+    },
+    {
+      "rules": {
+        "dailyRangeLimit": 900,
+        "licenseYears": 2,
+        "driverAge": 21,
+        "doubleCreditCard": false
+      },
+      "car": {
+        "name": "Clio",
+        "bigBagCount": 2,
+        "smallBagCount": 1,
+        "transmission": "manual",
+        "brand": "Renault",
+        "class": "economic",
+        "seats": 5,
+        "fuel": "gas",
+        "image": "/assets/cars/fa64b7bcfe65c804a860d91c9fbccf33.png"
+      },
+      "insurance": "basicDamage",
+      "price": 126.36,
+      "discountAmount": 0.55,
+      "preDiscountPrice": 195.86
+    },
+    {
+      "rules": {
+        "dailyRangeLimit": 900,
+        "licenseYears": 1,
+        "driverAge": 21,
+        "doubleCreditCard": false
+      },
+      "car": {
+        "name": "301",
+        "bigBagCount": 2,
+        "smallBagCount": 1,
+        "transmission": "manual",
+        "brand": "Peugeot",
+        "class": "economic",
+        "seats": 4,
+        "fuel": "diesel",
+        "image": "/assets/cars/bf51a24ae69ede211dc2133756bfab32.png"
+      },
+      "insurance": "basicDamage",
+      "price": 90,
+      "discountAmount": 0.55,
+      "preDiscountPrice": 139.5
+    },
+    {
+      "rules": {
+        "dailyRangeLimit": 1100,
+        "licenseYears": 1,
+        "driverAge": 22,
+        "doubleCreditCard": false
+      },
+      "car": {
+        "name": "Symbol",
+        "bigBagCount": 1,
+        "smallBagCount": 1,
+        "transmission": "manual",
+        "brand": "Renault",
+        "class": "economic",
+        "seats": 4,
+        "fuel": "diesel",
+        "image": "/assets/cars/3c14b8d77416260a321ad50b79dd524a.png"
+      },
+      "insurance": "basicDamage",
+      "price": 115,
+      "discountAmount": 0.55,
+      "preDiscountPrice": 178.25
+    },
+    {
+      "rules": {
+        "dailyRangeLimit": 900,
+        "licenseYears": 1,
+        "driverAge": 21,
+        "doubleCreditCard": false
+      },
+      "car": {
+        "name": "Symbol",
+        "bigBagCount": 1,
+        "smallBagCount": 1,
+        "transmission": "manual",
+        "brand": "Renault",
+        "class": "economic",
+        "seats": 4,
+        "fuel": "diesel",
+        "image": "/assets/cars/3c14b8d77416260a321ad50b79dd524a.png"
+      },
+      "insurance": "basicDamage",
+      "price": 123.76,
+      "discountAmount": 0.55,
+      "preDiscountPrice": 191.83
+    },
+    {
+      "rules": {
+        "dailyRangeLimit": 900,
+        "totalRangeLimit": 300,
+        "driverAge": 21,
+        "doubleCreditCard": false,
+        "licenseYears": 2
+      },
+      "car": {
+        "name": "Symbol",
+        "bigBagCount": 1,
+        "smallBagCount": 1,
+        "transmission": "manual",
+        "brand": "Renault",
+        "class": "economic",
+        "seats": 4,
+        "fuel": "gas",
+        "image": "/assets/cars/3c14b8d77416260a321ad50b79dd524a.png"
+      },
+      "insurance": "basicDamage",
+      "price": 71,
+      "discountAmount": 0.55,
+      "preDiscountPrice": 110.05
+    },
+    {
+      "rules": {
+        "dailyRangeLimit": 4000,
+        "licenseYears": 1,
+        "driverAge": 21,
+        "doubleCreditCard": false
+      },
+      "car": {
+        "name": "Egea",
+        "bigBagCount": 2,
+        "smallBagCount": 0,
+        "transmission": "automatic",
+        "brand": "Fiat",
+        "class": "comfort",
+        "seats": 5,
+        "fuel": "diesel",
+        "image": "/assets/cars/b644774d4a3a5d4f2ec7928a1327e6ce.png"
+      },
+      "insurance": "basicDamage",
+      "price": 176.33,
+      "discountAmount": 0.55,
+      "preDiscountPrice": 273.31
+    },
+    {
+      "rules": {
+        "dailyRangeLimit": 750,
+        "licenseYears": 2,
+        "driverAge": 21,
+        "doubleCreditCard": false
+      },
+      "car": {
+        "name": "Symbol",
+        "bigBagCount": 1,
+        "smallBagCount": 1,
+        "transmission": "manual",
+        "brand": "Renault",
+        "class": "economic",
+        "seats": 4,
+        "fuel": "gas",
+        "image": "/assets/cars/3c14b8d77416260a321ad50b79dd524a.png"
+      },
+      "insurance": "basicDamage",
+      "price": 81.25,
+      "discountAmount": 0.55,
+      "preDiscountPrice": 125.94
+    },
+    {
+      "rules": {
+        "dailyRangeLimit": 0,
+        "driverAge": 21,
+        "driverAgeWithYoungDriver": 19,
+        "doubleCreditCard": false,
+        "licenseYears": 1,
+        "licenseYearsWithYoungDriver": 1
+      },
+      "car": {
+        "name": "Clio",
+        "bigBagCount": 2,
+        "smallBagCount": 1,
+        "transmission": "manual",
+        "brand": "Renault",
+        "class": "economic",
+        "seats": 5,
+        "fuel": "diesel",
+        "image": "/assets/cars/fa64b7bcfe65c804a860d91c9fbccf33.png"
+      },
+      "insurance": "basicDamage",
+      "price": 153.78,
+      "discountAmount": 0.55,
+      "preDiscountPrice": 238.36
+    },
+    {
+      "rules": {
+        "dailyRangeLimit": 0,
+        "driverAge": 25,
+        "driverAgeWithYoungDriver": 21,
+        "doubleCreditCard": false,
+        "licenseYears": 4,
+        "licenseYearsWithYoungDriver": 1
+      },
+      "car": {
+        "name": "i20",
+        "bigBagCount": 1,
+        "smallBagCount": 1,
+        "transmission": "manual",
+        "brand": "Hyundai",
+        "class": "compact",
+        "seats": 5,
+        "fuel": "gas",
+        "image": "/assets/cars/a80ee21501eb4c37228de1b92a478431.png"
+      },
+      "insurance": "basicDamage",
+      "price": 74.18,
+      "discountAmount": 0.55,
+      "preDiscountPrice": 114.98
+    },
+    {
+      "rules": {
+        "dailyRangeLimit": 3000,
+        "driverAge": 21,
+        "driverAgeWithYoungDriver": 20,
+        "doubleCreditCard": false,
+        "licenseYears": 1,
+        "licenseYearsWithYoungDriver": 1
+      },
+      "car": {
+        "name": "C Elysee",
+        "bigBagCount": 4,
+        "smallBagCount": 0,
+        "transmission": "manual",
+        "brand": "Citroen",
+        "class": "economic",
+        "seats": 5,
+        "fuel": "gas",
+        "image": "/assets/cars/7b0e571344e78b4f9da6f9279f7d5772.png"
+      },
+      "insurance": "basicDamage",
+      "price": 94.04,
+      "discountAmount": 0.55,
+      "preDiscountPrice": 145.76
+    },
+    {
+      "rules": {
+        "dailyRangeLimit": 3000,
+        "driverAge": 21,
+        "driverAgeWithYoungDriver": 20,
+        "doubleCreditCard": false,
+        "licenseYears": 1,
+        "licenseYearsWithYoungDriver": 1
+      },
+      "car": {
+        "name": "Clio",
+        "bigBagCount": 2,
+        "smallBagCount": 1,
+        "transmission": "manual",
+        "brand": "Renault",
+        "class": "economic",
+        "seats": 5,
+        "fuel": "diesel",
+        "image": "/assets/cars/fa64b7bcfe65c804a860d91c9fbccf33.png"
+      },
+      "insurance": "basicDamage",
+      "price": 102.6,
+      "discountAmount": 0.55,
+      "preDiscountPrice": 159.03
+    },
+    {
+      "rules": {
+        "dailyRangeLimit": 3000,
+        "driverAge": 21,
+        "driverAgeWithYoungDriver": 20,
+        "doubleCreditCard": false,
+        "licenseYears": 1,
+        "licenseYearsWithYoungDriver": 1
+      },
+      "car": {
+        "name": "301",
+        "bigBagCount": 2,
+        "smallBagCount": 1,
+        "transmission": "manual",
+        "brand": "Peugeot",
+        "class": "economic",
+        "seats": 4,
+        "fuel": "diesel",
+        "image": "/assets/cars/bf51a24ae69ede211dc2133756bfab32.png"
+      },
+      "insurance": "basicDamage",
+      "price": 102.6,
+      "discountAmount": 0.55,
+      "preDiscountPrice": 159.03
+    },
+    {
+      "rules": {
+        "dailyRangeLimit": 3000,
+        "driverAge": 21,
+        "driverAgeWithYoungDriver": 20,
+        "doubleCreditCard": false,
+        "licenseYears": 1,
+        "licenseYearsWithYoungDriver": 1
+      },
+      "car": {
+        "name": "Corsa",
+        "bigBagCount": 1,
+        "smallBagCount": 1,
+        "transmission": "automatic",
+        "brand": "Opel",
+        "class": "economic",
+        "seats": 4,
+        "fuel": "gas",
+        "image": "/assets/cars/7de4726e9272a967ebf5b3e6035058c5.png"
+      },
+      "insurance": "basicDamage",
+      "price": 103.54,
+      "discountAmount": 0.55,
+      "preDiscountPrice": 160.49
+    },
+    {
+      "rules": {
+        "dailyRangeLimit": 1100,
+        "licenseYears": 1,
+        "driverAge": 21,
+        "doubleCreditCard": false
+      },
+      "car": {
+        "name": "Clio 4",
+        "bigBagCount": 2,
+        "smallBagCount": 1,
+        "transmission": "manual",
+        "brand": "Renault",
+        "class": "economic",
+        "seats": 5,
+        "fuel": "diesel",
+        "image": "/assets/cars/78b56612787bcf395a872f1d1c708fc6.png"
+      },
+      "insurance": "basicDamage",
+      "price": 115,
+      "discountAmount": 0.55,
+      "preDiscountPrice": 178.25
+    }
+  ],
+  "offset": 0,
+  "total": 71,
+  "reservations": [
+    {
+      "carId": 1,
+      "name": "John Doe",
+      "createdAt": 1575051213169
+    },
+    {
+      "carId": 5,
+      "name": "Vince Staples",
+      "createdAt": 1575047667406
+    },
+    {
+      "carId": 7,
+      "name": "Alyx Vance",
+      "createdAt": 1575044077417
+    },
+    {
+      "carId": 3,
+      "name": "Boris Brejcha",
+      "createdAt": 1575040489775
+    },
+    {
+      "carId": 10,
+      "name": "Daft Punk",
+      "createdAt": 1575036889775
+    }
+  ]
+}

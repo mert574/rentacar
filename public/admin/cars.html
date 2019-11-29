@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Setup</title>
+    <link href="/js/main.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-white">
+<nav class="navbar navbar-dark bg-secondary">
+    <a class="navbar-brand" href="javascript:history.go(-1)">Rent a Car</a>
+</nav>
+<div class="container">
+    <div class="col-5 mx-auto my-4">
+        <div class="row mb-4">
+            Listing
+            <div id="count" class="mx-1">0</div>
+            items.
+            <button id="reset" class="btn btn-secondary ml-auto btn-sm" onclick="reset()">Reset</button>
+        </div>
+        <ul id="carList" class="list-group row text-dark"></ul>
+    </div>
+</div>
+<script async defer src="/js/cars.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Offers Screen</title>
+    <link href="/js/main.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-light bg-dark">
+    <a class="navbar-brand text-light align-items-center d-flex" href="/">
+        <img alt="" class="d-inline-block mr-3" height="50" src="/assets/icons/car-rental.svg" width="50">
+        Antalya Car Rental
+    </a>
+</nav>
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
+        <li aria-current="page" class="breadcrumb-item active">Offers</li>
+    </ol>
+</nav>
+<div class="container">
+    <div class="col mt-5 mb-5">
+        <h1 class="row" id="resultsTitle"><strong>Pick Up Location:</strong><span class="ml-2"></span></h1>
+        <h4 class="row mb-5" id="betweenDates"><strong>Available Between:</strong><span class="ml-2"></span></h4>
+        <div class="card-deck container-fluid pt-3" id="car-listing"></div>
+    </div>
+</div>
+<script async defer src="/js/offers.js" type="module"></script>
+</body>
+</html>

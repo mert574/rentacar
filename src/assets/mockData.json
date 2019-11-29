@@ -1,5 +1,6 @@
 {
   "count": 15,
+  "countReservations": 5,
   "totalStatistics": {
     "class_type": [
       {
@@ -656,5 +657,32 @@
     }
   ],
   "offset": 0,
-  "total": 71
+  "total": 71,
+  "reservations": [
+    {
+      "carId": 1,
+      "name": "John Doe",
+      "createdAt": 1575051213169
+    },
+    {
+      "carId": 5,
+      "name": "Vince Staples",
+      "createdAt": 1575047667406
+    },
+    {
+      "carId": 7,
+      "name": "Alyx Vance",
+      "createdAt": 1575044077417
+    },
+    {
+      "carId": 3,
+      "name": "Boris Brejcha",
+      "createdAt": 1575040489775
+    },
+    {
+      "carId": 10,
+      "name": "Daft Punk",
+      "createdAt": 1575036889775
+    }
+  ]
 }

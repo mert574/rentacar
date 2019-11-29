@@ -14,8 +14,7 @@
     "bootstrap": "4.3.1",
     "jquery": "3.4.1",
     "popper.js": "1.16.0",
-    "qs": "6.9.1",
-    "rollup-plugin-copy": "^3.1.0"
+    "qs": "6.9.1"
   },
   "devDependencies": {
     "@babel/core": "7.7.2",
@@ -30,6 +29,7 @@
     "rollup-plugin-json": "4.0.0",
     "rollup-plugin-node-resolve": "5.2.0",
     "rollup-plugin-postcss": "2.0.3",
-    "rollup-plugin-terser": "5.1.2"
+    "rollup-plugin-terser": "5.1.2",
+    "rollup-plugin-copy": "3.1.0"
   }
 }

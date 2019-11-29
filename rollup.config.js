@@ -15,11 +15,15 @@ module.exports = {
         'src/main.js',
         'src/offers/offers.js',
         'src/checkout/checkout.js',
+        'src/admin/login.js',
+        'src/admin/dashboard.js',
+        'src/admin/cars.js',
+        'src/admin/reservations.js',
     ],
     output: [
         {
             dir: 'public/js',
-            format: 'es',
+            format: 'esm',
             sourcemap: false,
         }
     ],
@@ -39,39 +43,26 @@ module.exports = {
             ],
 
         }),
-        terser(),
         babel({
             exclude: 'node_modules/**',
             extensions: ['js'],
+        }),
+        terser(),
+        copy({
+            targets: [
+                { src: ['src/*.html'], dest: 'public' },
+                { src: ['src/assets'], dest: 'public' },
+                { src: ['src/checkout/*.html'], dest: 'public/checkout' },
+                { src: ['src/confirm/*.html'], dest: 'public/confirm' },
+                { src: ['src/offers/*.html'], dest: 'public/offers' },
+                { src: ['src/admin/*.html'], dest: 'public/admin' },
+            ],
+            copyOnce: false,
+            verbose: true,
         }),
         dev({
             dirs: ['public', 'src'],
             silent: true,
         }),
-        copy({
-            targets: [
-                { src: ['src/*.html'], dest: 'public' },
-                { src: ['src/assets'], dest: 'public/assets' },
-                { src: ['src/checkout/*.html'], dest: 'public/checkout' },
-                { src: ['src/confirm/*.html'], dest: 'public/confirm' },
-                { src: ['src/offers/*.html'], dest: 'public/offers' },
-            ],
-            copyOnce: true,
-            verbose: true,
-            expandDirectories: true,
-        }),
     ],
-    manualChunks(id) {
-        if (id.includes('node_modules')) {
-            return 'vendor';
-        }
-        if (id.endsWith('.css')) {
-            return 'styles';
-        }
-    },
-    onwarn(warning, warn) {
-        if (warning.code === 'UNUSED_EXTERNAL_IMPORT') return;
-        if (warning.code === 'NON_EXISTENT_EXPORT') throw new Error(warning.message);
-        warn(warning);
-    }
 };
